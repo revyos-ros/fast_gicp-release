@@ -1,0 +1,12 @@
+Source: ros-iron-fast-gicp
+Section: misc
+Priority: optional
+Maintainer: k.koide <k.koide@aist.go.jp>
+Build-Depends: debhelper (>= 9.0.0), libeigen3-dev, libpcl-dev, ros-iron-ament-cmake, ros-iron-ros-environment, ros-iron-ros-workspace
+Homepage: https://github.com/SMRT-AIST/fast_gicp
+Standards-Version: 3.9.2
+
+Package: ros-iron-fast-gicp
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, libeigen3-dev, libpcl-dev, ros-iron-ros-workspace
+Description: A collection of fast point cloud registration implementations
